@@ -43,7 +43,7 @@ Now you can run ```kubectl get nodes``` to check the status of the nodes:
 ![image](https://user-images.githubusercontent.com/25719157/146688648-0711a943-aaa8-408a-846f-690ae3b66cef.png)
 
 Cluster is ready. You can start hacking !
-## 1.3 Vagrantfile
+## 1.4 Vagrantfile
 
 ### Variables
 Vagrantfile for this takes couple of values as a variable that matches your Virtualbox setup and your desired number of worker nodes:
@@ -83,6 +83,9 @@ This script installs the required packages and botstraps the control plane compo
 This script installs the required packages to the worker nodes and uses the joinstring.sh script to join the worker nodes to the initialized cluster. 
 
 
+## References
+I used the Vagrantfile from Mumshad's repo for reference. 
+https://github.com/mmumshad/kubernetes-the-hard-way
 
 
 
