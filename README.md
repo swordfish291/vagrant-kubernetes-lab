@@ -67,7 +67,7 @@ config.vm.box = "ubuntu/bionic64"
 There are three provisioning scripts that are being used to prepare the master and worker nodes. One script is prepared as part of the build process to join the worker nodes to the control plane. 
 
 #### - setup-network.sh
-This script prepares all the nodes for network. It adds the host entries and modifes the DNS server settings. If you are planning to use more than 4 worker nodes, you will need to modify below section and add the additional host entries for the additioal worker nodes:
+This script prepares all the nodes for network. It adds the host entries and modifes the DNS server settings. If you are planning to use more than 2 worker nodes, you will need to modify below section and add the additional host entries for the additioal worker nodes:
 ``` bash
 cat >> /etc/hosts <<EOF
 192.168.5.10  k8s-master
