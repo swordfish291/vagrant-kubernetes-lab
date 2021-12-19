@@ -11,11 +11,6 @@ Make sure you have below installed beforehand:
 
 [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
-You can run git clone to create the clone of this repository locally:
-
-```
-git clone https://github.com/swordfish291/vagrant-kubernetes-lab.git
-```
 
 ## 1.3 Vagrant Up
 You can run git clone to create the clone of this repository locally:
