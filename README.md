@@ -84,7 +84,7 @@ This script installs the required packages to the worker nodes and uses the join
 
 
 ## References
-I used the Vagrantfile from Mumshad's repo for reference. 
+
 https://github.com/mmumshad/kubernetes-the-hard-way
 
 
